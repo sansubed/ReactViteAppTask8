@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(110, 108, 108);
+  text-align: center;
+  color: red;
+  height: 40px;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  padding: 0px 30px;
+}
+
+.layout {
+  display: flex;
+  padding-top: 35px;
+}
+.column1 {
+  background-color: rgb(71, 112, 71);
+  color: white;
+  width: 25%;
+  min-height: 100vh;
+  padding: 20px 0 0 20px;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+li {
+  list-style: square;
+}
+.column2 {
+  background-color: #ffff;
+  width: 75%;
+  padding: 10px;
+  min-height: 100vh;
+  text-align: justify;
+}
+.heading {
+  font-size: 3rem;
+  font-family: "Fasthand", cursive;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  float: right;
+  height: 300px;
+  padding: 10px 0px 10px 10px;
+}
+
+.footer {
+  background-color: rgb(110, 108, 108);
+  text-align: center;
+  color: white;
+  height: 40px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
